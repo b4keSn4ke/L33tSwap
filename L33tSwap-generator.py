@@ -10,13 +10,13 @@
 
 # Lowercase and uppercase letters
 # Uncomment the array below if you want to permutate lowercase and uppercase letters - comment the array below if using another sets of character.
-#char = ['sa@','sa4','si1','si!','se#','se3','se£','se€','suv','so0','ss$','ss5','sA@','sA4','sI1','sI!','sE#','sE3','sE£','sE€','sUV','sO0','sS$','sS5']
+#char = ['sa@','sa4','si1','si!','se#','se3',"se\\xC2 se\\xA3","se\\xC2 se\\x80",'suv','so0','ss$','ss5','sA@','sA4','sI1','sI!','sE#','sE3',"sE\\xC2 sE\\xA3","sE\\xC2 sE\\x80",'sUV','sO0','sS$','sS5']
 
 # Only lowercase letters - comment the array below if using another sets of character.
-char = ['sa@','sa4','si1','si!','se#','se3','se£','se€','suv','so0','ss$','ss5']
+char = ['sa@','sa4','si1','si!','se#','se3',"se\\xC2 se\\xA3","se\\xC2 se\\x80",'suv','so0','ss$','ss5']
 
 # Only uppercase letters - comment the array below if using another sets of character.
-#char = ['sA@','sA4','sI1','sI!','sE#','sE3','sE£','sE€','sUV','sO0','sS$','sS5']
+#char = ['sA@','sA4','sI1','sI!','sE#','sE3',"sE\\xC2 sE\\xA3","sE\\xC2 sE\\x80",'sUV','sO0','sS$','sS5']
 
 
 print ("# This set of rules will try to replace vowels from a word \n# for special characters or numbers that could be interpreted like the vowels")
